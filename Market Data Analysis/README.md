@@ -17,7 +17,7 @@ A Python project that cleans a retail transactions CSV, builds an invoice by pro
 - src/association_mining.py - Runs Apriori and generates association rules.
 - src/recommender.py - Filters rules to match the shopper basket and returns top suggestions.
 - requirements.txt - Python dependencies.
-- data/data.csv - Place your dataset here (example dataset provided).
+- data/data.csv - Place your dataset here (example dataset provided but unzip it first).
 
 ## Data requirements
 Provide a CSV at data/data.csv with columns:
