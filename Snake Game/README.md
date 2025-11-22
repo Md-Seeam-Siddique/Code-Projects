@@ -1,4 +1,4 @@
-# Snake Game (Java Swing)
+# Snake Game (Personal Project)
 
 A single file Swing implementation of the classic Snake game with a styled home screen, palette picker, and saved high scores. No external libraries beyond the JDK.
 
