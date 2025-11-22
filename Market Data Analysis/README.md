@@ -1,4 +1,4 @@
-# Market Basket Analysis & Product Recommender
+# Market Basket Analysis & Product Recommender (Personal Project)
 
 A Python project that cleans a retail transactions CSV, builds an invoice by product basket, mines frequent itemsets with Apriori, and suggests complementary products through a CLI and Tkinter GUI.
 
