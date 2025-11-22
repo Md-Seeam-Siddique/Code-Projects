@@ -1,4 +1,4 @@
-# City Weather History & Climate Explorer
+# City Weather History & Climate Explorer (Personal Project)
 
 Python CLI + Tkinter desktop app that downloads historical daily weather data from Meteostat, stores it in a local SQLite database, and surfaces quick climate analyses per city.
 
@@ -87,3 +87,4 @@ README.md
 - If an import returns zero rows, double-check the city coordinates and date range; some stations lack full coverage.
 - Analyses require imported data; run `import-data` before `monthly-summary`, `extremes`, `rainy-days`, or `compare-cities`.
 - Keep separate database files (via `--db`) for experiments vs. production data.
+
