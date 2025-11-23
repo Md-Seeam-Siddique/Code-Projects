@@ -66,5 +66,7 @@ Two pairs; Three of a kind; Little straight (any 4 in a row); Full house; Four o
 - `saves/`: save files generated at runtime.
 - `Game.jar`: built artifact with `Main-Class: WelcomeScreen`.
 
+## Please view the Course Project Documents folder for all the project documentation
+
 Author: Md Seeeam Siddique, Aishna Gupta, Syeda Tasnim Ezaz, Nick Farrel, Mohammad Rajin Hasan
 Date: 31/03/2025
