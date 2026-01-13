@@ -1,9 +1,9 @@
 # City Weather History & Climate Explorer (Personal Project)
 
-Python CLI + Tkinter desktop app that downloads historical daily weather data from Meteostat, stores it in a local SQLite database, and surfaces quick climate analyses per city.
+Python CLI + Tkinter desktop app that downloads historical daily weather data from Meteostat, stores it in a local SQL database, and surfaces quick climate analyses per city.
 
 ## Features
-- Seeded SQLite database with common cities; add more through the CLI or GUI.
+- Seeded SQL database with common cities; add more through the CLI or GUI.
 - Imports Meteostat daily observations (temperature, precipitation, pressure, humidity, wind, snow) for any date range.
 - Analysis commands: monthly averages, hottest/coldest days, rainy-day counts above a threshold, and yearly average temperature comparisons between cities.
 - Re-runs are safe: daily rows are upserted so you can refresh data without duplicates.
@@ -38,7 +38,7 @@ Python CLI + Tkinter desktop app that downloads historical daily weather data fr
    python main.py extremes --city "Tokyo"
    ```
 
-Use `--db path/to/file.db` with any command to work with a different SQLite file than the default `weather_history.db`.
+Use `--db path/to/file.db` with any command to work with a different SQL file than the default `weather_history.db`.
 
 ## CLI command reference
 | Command | Example | Description |
@@ -75,8 +75,8 @@ Default seeded cities: St. John's, Toronto, Vancouver, London, Tokyo. Extend by 
 ```
 analysis.py      # Reporting helpers for monthly summaries, extremes, rainy days, comparisons
 config.py        # Default paths and seed city definitions
-data_import.py   # Meteostat integration and ETL into SQLite
-db.py            # SQLite schema creation and query utilities
+data_import.py   # Meteostat integration and ETL into SQL
+db.py            # SQL schema creation and query utilities
 gui.py           # Tkinter desktop front-end for imports and analyses
 main.py          # Argparse-driven CLI entry point
 README.md
@@ -89,3 +89,4 @@ README.md
 - Keep separate database files (via `--db`) for experiments vs. production data.
 
 Author: Md Seeam Siddique Date: 15/11/2025
+
